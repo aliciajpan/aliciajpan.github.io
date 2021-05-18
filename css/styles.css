@@ -10193,5 +10193,12 @@ li{
 
 .gif-format {
   width: 100%;
+  /* border-radius: 30px; */
   
+}
+
+.video-rounded {
+  width: 100%;
+  border-radius: 30px
+  overflow: hidden;
 }
