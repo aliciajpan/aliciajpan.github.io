@@ -10194,7 +10194,7 @@ li{
 .gif-format {
   width: 100%;
   /* border-radius: 30px; */
-  
+  object-fit: contain;
 }
 
 .video-rounded {

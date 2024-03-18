@@ -16,6 +16,8 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/switch.css" rel="stylesheet" />
+        <link href="css/carousel.css" rel="stylesheet" />
+
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -54,7 +56,10 @@
                     <div class="subsubheading mb-5">
                         Howdy! I'm Alicia and I want to make robots that make life better <span><i class="fas fa-robot"></i></span>
                         <br>
-                        I am a hardware & embedded engineer with a special interest in medical/wellness devices. 
+                        <br>
+                        I am a hardware & embedded engineer with a special interest in medical & wellness devices. 
+                        <br>
+                        Currently, I'm exploring people-facing aspects of engineering & design because I love learning about others.
                         <br>
                         <br>
                         Keep scrolling to see some of my projects and experiences!
@@ -66,7 +71,9 @@
                         <a class="social-icon" href="mailto: alicia.pan@uwaterloo.ca" rel="noopener" target="_blank"><i class="fas fa-envelope"></i></a>
                         <a class="social-icon" href="https://ca.linkedin.com/in/panalicia" rel="noopener" target="_blank"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/aliciajpan" rel="noopener" target="_blank"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="assets/W24%20Alicia%20Pan%20Wesite%20Resume.pdf" rel="noopener" target="_blank"><i class="fas fa-file-alt"></i></a>
+                        <a class="social-icon" href="assets/Mar2024%20Alicia%20Pan%20Resume%20Website.pdf" rel="noopener" target="_blank"><i class="fas fa-file-alt"></i></a>
+                        <!-- <a class="social-icon" href="assets/Mar2024%20Alicia%20Pan%20Resume%20Website.pdf" rel="noopener" target="_blank"><i class="fas fa-info"></i>
+                        </a> -->
                     </div>
                 </div>
             </section>
@@ -80,22 +87,23 @@
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Mechatronics Engineering</h3>
                             <div class="subheading mb-3">University of Waterloo</div>
-                            BASc Candidate <br>
+                            BASc Candidate, Computing Option <br>
+                            <br>
                             Class representative <br>
                             Engineering Ambassador <br>
 
                             <br>
 
                             <div class="subsubheading mb-0">
-                                Technical Coursework
+                                Coursework
                             </div>
                             <ul class="mb-5">
                                 <li>Biomedical Signal Processing / Sensors & Implementation</li>
-                                <li>Analog & Digital Transistor-Level Design</li>
                                 <li>Multi-Sensor Data Fusion</li>
                                 <li>Microprocessors / Computer Structures & Real-Time Systems</li>
-                                <li>Automatic Control Systems / Digital Controls Applications / Multivariable Control Systems</li>                                
-                                <li>User-Centered Design / Cognitive Ergonomics</li>
+                                <li>Automatic Control Systems / Digital Controls Applications</li>
+                                <li>Analog & Digital Transistor-Level Design</li>
+                                <li>User-Centered Design & User Research / Cognitive Ergonomics</li>
                             </ul>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Sep 2019 - Apr 2024</span></div>
@@ -107,17 +115,15 @@
             <!-- Skills-->
             <section class="resume-section" id="skills">
                 <div class="resume-section-content">
-                    <h2 class="mb-5">skills</h2>
+                    <h2 class="mb-5">skills & tools</h2>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="subheading mb-3">Hardware <i class="fas fa-microchip"></i> </div>
                             <ul>
-                                <li>STM32</li>
-                                <li>Arduino</li>
-                                <li>DMM</li>
-                                <li>Oscilloscope</li>
-                                <li>Signal Generator</li> 
+                                <li>STM32 / Arduino / nRF </li>
+                                <li>Oscilloscope / Signal Generator</li>
                                 <li>Soldering</li>
+                                <li>JTAG / SWD</li>
                                 <li>Breadboard Prototyping</li>
                                 <li>Machining</li>
                             </ul>
@@ -130,14 +136,20 @@
                                 <li>Java</li>
                                 <li>VHDL</li>
                             </ul>
+                            
+                            <div class="subheading mb-3">Media & Graphics <i class="fas fa-camera"></i> </div>
+                            <ul>
+                                <li>Adobe Illustrator / Indesign</li>
+                                <li>DaVinci Resolve</li>
+                                <li>MailChimp</li>
+                            </ul>
 
                         </div>
                         <div class="col-md-6">
                             
                             <div class="subheading mb-3">Design <i class="fas fa-pencil-ruler"></i> </div>
                             <ul>
-                                <li>Altium</li>
-                                <li>KiCAD</li>
+                                <li>Altium / KiCAD</li>
                                 <li>Cadence</li>
                                 <li>LT Spice</li>
                                 <li>SolidWorks</li>
@@ -148,11 +160,10 @@
                             <div class="subheading mb-3">Tools <i class="fas fa-tools"></i> </div>
                             <ul>
                                 <li>Git</li>
-                                <li>Visual Studio</li>
-                                <li>LabVIEW</li>
                                 <li>SEGGER Embedded Studio</li>
-                                <li>Keil uVision</li>
                                 <li>STM32CubeIDE</li>
+                                <li>Keil uVision</li>
+                                <li>LabVIEW</li>
                                 <li>Microsoft Azure DevOps</li>
                                 <li>BitBucket / Confluence / JIRA</li>
                             </ul>
@@ -176,7 +187,7 @@
                             <li>Decreased UX testing time by designing and bringing up debugger module PCB to consolidate and replace finnicky connectors</li>
                             <li>Reduced damaged boards by redesigning temperature sensor PCB in Altium for better mechanical fit and sensor protection</li>
                             <li>Implemented firmware in C to clean temperature sensor data and investigated alternative testing setups to minimize noise</li>
-                            <li>Supported team members in replacing soldered components and Arduino prototyping of new features</li>
+                            <li>Supported team members in replacing soldered components and Arduino prototyping of new features (such as Peltier cooling with thermocouple feedback)</li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">Jan - Aug 2023 </span></div>
                     </div>
@@ -184,7 +195,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Embedded Systems Developer</h3>
-                            <div class="subheading mb-3"><a href="https://www.onsemi.com/solutions/medical/portable-medical-devices#;block-diagram:medical/hearing-aid" rel="noopener" target="_blank">onsemi (ON Semiconductor)</a> | Waterloo, Ontario</div>
+                            <div class="subheading mb-3"><a href="https://www.onsemi.com/solutions/medical/audiology" rel="noopener" target="_blank">onsemi (ON Semiconductor)</a> | Waterloo, Ontario</div>
                             <li>Implemented firmware updates for a low-power Bluetooth-enabled SoC designed for wearable health tech applications</li>
                             <li>Used oscilloscope, J-Link debugger, and FPGA prototyping kit to test bug fixes for clock, memory, and voltage trim functions</li>
                             <li>Created detailed documentation for code change decisions and technical reference material for future new hires</li>
@@ -208,7 +219,7 @@
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Linear Circuits & Electromagnetism Teaching Assistant</h3>
-                            <div class="subheading mb-3">University of Waterloo | Waterloo, Ontario</div>
+                            <div class="subheading mb-3"><a href="https://uwaterloo.ca/engineering-endowment-foundation/" rel="noopener" target="_blank">University of Waterloo</a> | Waterloo, Ontario</div>
                             <li>Planned help sessions tailored to student needs attended by 50+ individuals</li>
                             <li>Reliably met deadlines to grade 100+ student submissions every week</li>
                             <li>Stress-tested labs involving op-amps, capacitors, and AC signals with simulations</li>
@@ -219,11 +230,13 @@
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Research & Design Intern</h3>
-                            <div class="subheading mb-3"><a href="http://www.mypasskit.com/" rel="noopener" target="_blank">PASS Inc.</a> | Waterloo, Ontario</div>
+                            <h3 class="mb-0">Research & Design Intern / Entrepreneur in Training</h3>
+                            <div class="subheading mb-3"><a href="http://www.mypasskit.com/" rel="noopener" target="_blank">PASS Inc. / </a>
+                                <a href="https://uwaterloo.ca/conrad-school-entrepreneurship-business/undergraduate-students/bridging-entrepreneurs-students-bets" rel="noopener" target="_blank">Conrad School of Entrepreneurship & Business </a>| Waterloo, Ontario</div>
                             <li>Led product development of <a href="http://www.mypasskit.com/shop/pass-cards-for-screen-time" rel="noopener" target="_blank">screen time management advice cards</a> and other mental health resources created with Adobe InDesign</li>
                             <li>Conducted 20+ detailed user-base interviews and investigated research papers on the impact of screen time</li>
-                            <li>Generated 2 international bulk-buy­­ sales via marketing materials such as monthly newsletters and a <a href="http://www.mypasskit.com/blog/2020/5/26/a-reflection-on-adhd-and-video-game-addiction-risk" rel="noopener" target="_blank">blog post article</a></li>
+                            <li>Generated 2 international bulk-buy sales via marketing materials such as monthly newsletters and a <a href="http://www.mypasskit.com/blog/2020/5/26/a-reflection-on-adhd-and-video-game-addiction-risk" rel="noopener" target="_blank">blog post article</a></li>
+                            <li>Attended crash course sessions on business management</li>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">May - Aug 2020</span></div>
                     </div>
@@ -283,25 +296,76 @@
                         <div class="col-md-6">
                             <div id="hw-section" class="d-flex flex-column flex-md-row justify-content-between">
                                 <div class="flex-grow-1">
-                                    <h3 class="mb-0"><a rel="noopener" target="_blank" href='https://menopatch.notion.site/menopatch/Welcome-to-the-Menopatch-Website-a6438597d43e49fb930e286baa3d92e1'>Menopatch: Hot Flash Relief Wearable (Capstone Project)</a></h3>
+                                    <h3 class="mb-0"><a rel="noopener" target="_blank" href='https://menopatch.notion.site/menopatch/Welcome-to-the-Menopatch-Website-a6438597d43e49fb930e286baa3d92e1'>Menopatch</a></h3>
+                                    <h4 class="mb-0 mt-1">Wearable cooling patch for menopausal hot flashes (Capstone Design Project)</h4>
+                                    
                                     <div style="margin-top:10px; margin-bottom: 10px";>
                                         <div class="tagging">STM32</div>
                                         <div class="tagging">Biometric Sensors</div>
                                         <div class="tagging">Peltier Module</div>
                                         <div class="tagging">KiCad</div>
                                     </div>
-                                    <li>Developing a wearable device that can autonomously detect hot flashes in the user and activate Peltier module-powered cooling</li>
-                                    <li>Role: Electrical lead, project manager</li>
-                                    <li>If you have personal experience with hot flashes that you'd like to share, please take a moment to fill in our <a rel="noopener" target="_blank" href='https://forms.gle/cVXxRBHg6K26nrvL8'>survey</a>.</li>
+                                    <li>Developing a wearable device that can detect hot flashes in users through temperature, skin conductance, and pulse sensors, and autonomously activate Peltier module-powered cooling</li>
+                                    <br>
+                                    <li>Electrical Lead: Sensor flow/schematic/layout design for small form factor, soldering, PCB bring-up</li>
+                                    <li>Project Manager: Scheduling & documentation, cross-team coordination, presentation preparation</li>
                                 </div>
                                 
-                                <div class="flex-shrink-0"><span class="text-primary">Ongoing</span></div>
+                                <div class="flex-shrink-0"><span class="text-primary">2023-2024</span></div>
                             </div>
                         </div>
     
                         <div class="col-md-6 d-flex" id="hw-section"> 
                             <!-- control slash to comment, add more than one class with space -->
-                            <img class="gif-format" src="assets/gifs/menopatch.gif" alt="Exploded view of Menopatch">
+                            <div class="col-md-6 p-0">
+                              <div class="w-100 h-50 align-middle d-flex">
+                                <img class="d-block gif-format" src="assets/gifs/upperPCB.gif" alt="3D 360 view of upper PCB">
+                              </div>
+                              <div class="w-100 h-50 align-middle d-flex">
+                                <img class="d-block gif-format" src="assets/img/menopatch%20assembled.jpg" alt="Physical Menopatch device assembled">
+                              </div>
+
+                            </div>
+                            <div class="col-md-6 p-0">
+                              <div class="w-100 h-50 align-middle d-flex">
+                                <img class="d-block gif-format" src="assets/gifs/lowerPCB.gif" alt="3D 360 view of lower PCB">
+                              </div>
+
+                              <div class="w-100 h-50 align-middle d-flex">
+                                <img class="d-block gif-format" src="assets/gifs/menopatch%20exploded.gif" alt="Exploded view of Menopatch">
+                              </div>
+                            </div>
+                            
+<!--
+                          <div id="myCarousel" class="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-slide active">
+                                <img class="d-block gif-format" src="assets/gifs/upperPCB.gif" alt="3D 360 view of upper PCB">
+                              </div>
+
+                              <div class="carousel-slide">
+                                <img class="d-block gif-format" src="assets/gifs/lowerPCB.gif" alt="3D 360 view of lower PCB">
+                              </div>
+
+                              <div class="carousel-slide">
+                                <img class="d-block gif-format" src="assets/gifs/menopatch%20exploded.gif" alt="Exploded view of Menopatch">
+                              </div>
+                                
+                              <div class="carousel-slide">
+                                <img class="d-block gif-format" src="assets/img/menopatch%20assembled.jpg" alt="Physical Menopatch device assembled">
+                              </div>
+                            </div>
+
+                            <a class="left carousel-control-prev" id="prevBtn">
+                              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control-next" id="nextBtn">
+                              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                              <span class="sr-only">Next</span>
+                            </a>
+                          </div>
+-->                            
                         </div>
                     </div>
                     
@@ -577,27 +641,27 @@
                     <h2 class="mb-5">interests & facts about me</h2>
                     
                     <div class="subheading mb-3">classical music <i class="fas fa-music"></i></div>
-                    I learned to play violin and piano as a kid and performed with the Mississauga Symphony Youth Orchestra for several years. Playing Sebelius' Finlandia onstage is still one of the most emotional moments of my life.
+                    I learned to play violin and piano as a kid and performed with the Mississauga Symphony Youth Orchestra for several years!
                     <br>
                     I'm sitting in the principal desk for Violin II here:
                     <br>
                     <div> <img style="padding: 10px 1px" width="75%" src="assets/img/msyo.png" alt="MSYO concert"/> </div>
-                    I don't play so much classical music these days, but I have started to self-learn guitar as a pastime.
+                    I don't play much classical music these days, but I have started to self-learn guitar as a pastime.
                     <br>
                     
                     <br>
                     <div class="subheading mb-3">volleyball <i class="fas fa-volleyball-ball"></i></div>
-                    Despite being on the short side, I've been playing volleyball for almost 15 years now. It's always been a great way to reset my mind. Over the years, I've gone through many competitive training camps, mentored at youth camps, and served as the starting setter on my school teams. After lockdown, I rekindled my love for the sport at UW's volleyball club.
+                    Despite being on the short side, I've been playing volleyball for almost 15 years now. Over the years, I've gone through many competitive training camps, mentored at youth camps, and served as the starting setter on my school teams. After lockdown, I rekindled my love for the sport at UW's volleyball club.
                     <div> <img style="padding: 10px 1px" width="60%" src="assets/img/vball.png" alt="Pakmen GTA Premier"/> </div>
                     <br>
                     
                     <div class="subheading mb-3">bullet journalling <i class="fas fa-book"></i></div>
-                    Bullet journalling is a natural extension of my obsession with nice stationery. It's an artistic outlet and organizational tool all at once! I really enjoy designing aesthetic yet functional spreads and having an excuse to buy stickers.
+                    Bullet journalling is an artistic outlet and organizational tool all at once - one that provides an excuse for having a massive collection of stickers. I may have a problem with buying nice stationery... 
                     <br>
                     
                     <br>
                     <div class="subheading mb-3">quantum tech <i class="fas fa-atom"></i></div>
-                    I was part of a student accelerator program called <a href="https://tks.world/" rel="noopener" target="_blank">The Knowledge Society</a> (TKS), where I learned a lot about exponential technologies and met loads of interesting people. While I was there, I focused on researching quantum cryptography. It's a super exciting field, and I was able to give a presentation about the future of quantum internet at one of the TKS sessions.  
+                    I was part of a student accelerator program called <a href="https://tks.world/" rel="noopener" target="_blank">The Knowledge Society</a> (TKS), where I learned a lot about exponential technologies and met loads of interesting people. While I was there, I focused on researching quantum cryptography. It's a super exciting field, and I was able to give a presentation about the future of quantum internet at one of the sessions.  
                     <br>
 
                 </div>
@@ -623,6 +687,14 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-award" style="color:indianred"></i></span> &nbsp;
                             Norman Esch Award | 2020 - Student Entrepreneurship Scholarship
+                        </li>                        
+                        <li>
+                            <span class="fa-li"><i class="fas fa-award" style="color:indianred"></i></span> &nbsp;
+                            President's Scholarship | 2020 - High Academic Achievement
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-award" style="color:indianred"></i></span> &nbsp;
+                            Gareth David Harvard Memorial Scholarship | 2019 - Engineering Impact Scholarship
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span> &nbsp;
@@ -632,16 +704,6 @@
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span> &nbsp;
                             1st Place | 2019 & 2017 - FIRST Robotics District Competition
-                        </li>
-                        
-                        <li>
-                            <span class="fa-li"><i class="fas fa-award" style="color:indianred"></i></span> &nbsp;
-                            President's Scholarship | 2020 - High Academic Achievement
-                        </li>
-
-                        <li>
-                            <span class="fa-li"><i class="fas fa-award" style="color:indianred"></i></span> &nbsp;
-                            Gareth David Harvard Memorial Scholarship | 2019 - Engineering Impact Scholarship
                         </li>
                         <br>
                         <br>
@@ -672,6 +734,7 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
+        <script src="js/carousel.js"></script>
     </body>
     
 </html>
