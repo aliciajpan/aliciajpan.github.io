@@ -10202,3 +10202,7 @@ li{
   border-radius: 30px
   overflow: hidden;
 }
+
+.aspect-ratio-square {
+  aspect-ratio: 1;
+}
