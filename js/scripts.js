@@ -52,11 +52,18 @@
       });
 
       // [selects multiple], # selects 1
-      
-      //outside = initial state
-      $("#hardware").toggleClass("hardware-on");
-      $("[id=sw-section]").toggleClass("projects-hide");
-      $("[id=sw-section]").toggleClass("d-flex");
 
-      $("[id=sw-section-container]").toggleClass("projects-hide");
+    //outside = initial state SW
+      $("#software").toggleClass("software-on");
+      $("[id=hw-section]").toggleClass("projects-hide");
+      $("[id=hw-section]").toggleClass("d-flex");
+
+      $("[id=hw-section-container]").toggleClass("projects-hide");
+      
+      //outside = initial state HW
+    //   $("#hardware").toggleClass("hardware-on");
+    //   $("[id=sw-section]").toggleClass("projects-hide");
+    //   $("[id=sw-section]").toggleClass("d-flex");
+
+    //   $("[id=sw-section-container]").toggleClass("projects-hide");
 })(jQuery); // End of use strict

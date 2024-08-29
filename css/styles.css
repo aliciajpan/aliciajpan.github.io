@@ -10206,3 +10206,11 @@ li{
 .aspect-ratio-square {
   aspect-ratio: 1;
 }
+
+.bold {
+    font-weight: bold;
+}
+
+.project-button:hover {
+    opacity: 50%;
+}
